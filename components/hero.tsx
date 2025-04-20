@@ -45,7 +45,7 @@ const Hero: React.FC<HeroProps> = ({ title, description, imageUrl }) => {
           
           <p 
             className="text-white text-[1.2vw] min-text-[12px] max-w-[600px] mb-6 transition-all duration-700 opacity-0 animate-[fadeInUp_1s_0.7s_forwards] line-clamp-3"
-            style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.45)' }}
+            style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.42)' }}
           >
             {description}
           </p>
