@@ -19,16 +19,14 @@ const ContentRow: React.FC<ContentRowProps> = ({ title, endpoint, delay = 0 }) =
   const rowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // In a real app, you'd fetch from an API based on the endpoint
-    // For this demo, we'll use mock data
     const mockContent = generateMockContent(endpoint, 12);
     
-    // Simulate API delay
+
     const timer = setTimeout(() => {
       setContent(mockContent);
       setIsLoaded(true);
       
-      // Check if scrollable after content loads
+    
       checkScrollable();
     }, 300 + delay);
     
@@ -58,7 +56,7 @@ const ContentRow: React.FC<ContentRowProps> = ({ title, endpoint, delay = 0 }) =
         behavior: 'smooth'
       });
       
-      // Update scroll buttons after animation
+      
       setTimeout(checkScrollable, 500);
     }
   };
