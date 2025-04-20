@@ -11,7 +11,7 @@ interface Content {
   genres: string[];
 }
 
-// Verified working Pexels image IDs
+
 const PEXELS_IMAGE_IDS = [
   '3945317', // Dark city
   '2873486', // Movie theater
