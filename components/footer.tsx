@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
             </select>
           </div>
           
-          <p className="text-xs">Netflix Clone &copy; {currentYear}</p>
+          <p className="text-xs">Netflix Clone For Pixel Plus Hackathon &copy; {currentYear}</p>
         </div>
       </div>
     </footer>
