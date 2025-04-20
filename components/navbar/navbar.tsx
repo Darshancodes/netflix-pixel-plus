@@ -97,7 +97,7 @@ const Navbar = () => {
                       className="h-full w-full object-cover"
                     />
                   </div>
-                  <span className="text-sm">Username</span>
+                  <span className="text-sm">Darshan</span>
                 </Link>
                 <Link href="/manage-profiles" className="px-3 py-2 text-sm hover:bg-gray-700/40">Manage Profiles</Link>
                 <Link href="/account" className="px-3 py-2 text-sm hover:bg-gray-700/40">Account</Link>
