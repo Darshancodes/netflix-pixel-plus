@@ -135,9 +135,9 @@ export const ContentModal: React.FC<ContentModalProps> = ({
 };
 
 const PEXELS_IMAGE_IDS = [
-  '3945317', // Dark city
-  '2873486', // Movie theater
-  '2510428', // Abstract lights
-  '2774556', // Cinema
-  '436413',  // Theater
+  '3945317', 
+  '2873486', 
+  '2510428',
+  '2774556',
+  '436413', 
 ];
